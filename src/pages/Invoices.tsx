@@ -1,6 +1,6 @@
-
 import React, { useState } from 'react';
 import { Search, Moon, Bell, Settings, Clock, Eye, Pencil, Trash2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 // Mock data for invoices
 const invoicesData = [
@@ -245,9 +245,9 @@ const Invoices = () => {
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                       <div className="flex space-x-2">
-                        <button className="p-1 rounded-full bg-gray-200 text-gray-600 hover:bg-gray-300">
+                        <Link to="/invoice-detail" className="p-1 rounded-full bg-gray-200 text-gray-600 hover:bg-gray-300">
                           <Eye size={16} />
-                        </button>
+                        </Link>
                         <button className="p-1 rounded-full bg-gray-200 text-orange-500 hover:bg-gray-300">
                           <Pencil size={16} />
                         </button>
