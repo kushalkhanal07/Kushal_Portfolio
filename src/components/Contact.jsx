@@ -11,7 +11,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="p-8 bg-gradient-to-br from-primary/5 to-primary/10">
               <h3 className="text-2xl font-semibold mb-4">Get In Touch</h3>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-500 mb-8">
                 I'm currently looking for new opportunities. Whether you have a question or just want to say hi, 
                 feel free to reach out!
               </p>
@@ -83,7 +83,7 @@ const Contact = () => {
                   <input 
                     type="text" 
                     id="name" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none"
+                    className="w-full text-black px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none"
                     placeholder="Your name"
                   />
                 </div>
@@ -93,7 +93,7 @@ const Contact = () => {
                   <input 
                     type="email" 
                     id="email" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none"
+                    className="w-full text-black px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none"
                     placeholder="Your email"
                   />
                 </div>
@@ -103,7 +103,7 @@ const Contact = () => {
                   <textarea 
                     id="message" 
                     rows="5" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none resize-none"
+                    className="w-full text-black px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none resize-none"
                     placeholder="Your message"
                   ></textarea>
                 </div>

@@ -4,7 +4,7 @@ import React from 'react';
 const Education = () => {
   return (
     <section id="education" className="py-20 dark:bg-gray-900 dark:text-white">
-      <div className="section-container">
+      <div className="px-2">
         <h2 className="section-title text-center text-3xl font-bold mb-12 animate-fade-up dark:text-white">Education</h2>
         
         <div className="max-w-3xl mx-auto">

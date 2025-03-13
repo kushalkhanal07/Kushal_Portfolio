@@ -88,7 +88,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="py-20 dark:bg-gray-900 dark:text-white">
-      <div className="section-container">
+      <div className="max-w-[1200px] mx-auto px-5">
         <h2 className="section-title text-center text-3xl font-bold mb-12 animate-fade-up dark:text-white">Skills</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

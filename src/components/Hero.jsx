@@ -34,13 +34,13 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Linkedin className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-                <a href="https://linkedin.com/in/kushal" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
+                <a href="https://www.linkedin.com/in/kushal-khanal-268b792b7/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
                   linkedin.com/in/kushal
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Github className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-                <a href="https://github.com/MyProfile/kushal" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
+                <a href="https://github.com/kushalkhanal07" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
                   github.com/MyProfile/kushal
                 </a>
               </div>

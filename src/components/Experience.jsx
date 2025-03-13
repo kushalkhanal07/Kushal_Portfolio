@@ -4,7 +4,7 @@ import React from 'react';
 const Experience = () => {
   return (
     <section id="experience" className="py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 dark:text-white">
-      <div className="section-container">
+      <div className="">
         <h2 className="section-title text-center text-3xl font-bold mb-12 animate-fade-up dark:text-white">Experience</h2>
         
         <div className="max-w-3xl mx-auto">

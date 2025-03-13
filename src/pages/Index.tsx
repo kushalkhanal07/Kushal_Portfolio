@@ -25,14 +25,7 @@ const Index = () => {
   
   return (
     <main className="relative overflow-hidden">
-      <div className="fixed top-4 right-4 z-50">
-        <Link 
-          to="/invoices" 
-          className="px-4 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-colors shadow-md dark:bg-blue-600 dark:hover:bg-blue-700"
-        >
-          View Invoices Dashboard
-        </Link>
-      </div>
+     
       <Navbar />
       <Hero />
       <About />

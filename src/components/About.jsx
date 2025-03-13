@@ -4,7 +4,7 @@ import React from 'react';
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 dark:text-white">
-      <div className="section-container">
+      <div className="">
         <div className="max-w-3xl mx-auto">
           <h2 className="section-title text-center text-3xl font-bold mb-6 animate-fade-up dark:text-white">Objective</h2>
           
