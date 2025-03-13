@@ -11,7 +11,7 @@ const Projects = () => {
       description: "Built a simple ecommerce site featuring various products.",
       link: "ecommerce",
       technologies: ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Redux"],
-      image: "https://images.unsplash.com/photo-1523289562728-a27f9071c8c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGVjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      image: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const Projects = () => {
       description: "Created a real ecommerce website in a team which is launched in real world application.",
       link: "Hardware",
       technologies: ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Redux"],
-      image: "https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhhcmR3YXJlJTIwc3RvcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      image: "https://images.unsplash.com/photo-1581783898377-1c85bf937427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGFyZHdhcmUlMjBzdG9yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const Projects = () => {
       description: "Designed a responsive Car Rental website which shows description about car details.",
       link: "CarRent",
       technologies: ["HTML", "CSS", "JavaScript", "Tailwind", "React"],
-      image: "https://images.unsplash.com/photo-1560039571-4a2e7c8b2f01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlbnRhbCUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      image: "https://images.unsplash.com/photo-1550355291-bbee04a92027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlbnRhbCUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
       id: 4,
@@ -35,7 +35,7 @@ const Projects = () => {
       description: "On the occasion of Diwali, created responsive Diwali project wishing all happy Diwali.",
       link: "Diwali",
       technologies: ["HTML", "CSS", "JavaScript", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1605369179590-014a88d4b038?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGl3YWxpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+      image: "https://images.unsplash.com/photo-1606485165292-3112b81c49e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGl3YWxpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
     },
     {
       id: 5,
@@ -43,7 +43,7 @@ const Projects = () => {
       description: "Responsive ecommerce website on dry fruits.",
       link: "DryFruits",
       technologies: ["HTML", "CSS", "JavaScript", "Tailwind", "React"],
-      image: "https://images.unsplash.com/photo-1613919517761-0d9e698c50b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZHJ5JTIwZnJ1aXRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+      image: "https://images.unsplash.com/photo-1616684000067-36952fde56ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ5JTIwZnJ1aXRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
     },
     {
       id: 6,
@@ -51,7 +51,7 @@ const Projects = () => {
       description: "Developed a Dog food responsive website.",
       link: "Dog_Food",
       technologies: ["HTML", "CSS", "JavaScript", "Tailwind", "React"],
-      image: "https://images.unsplash.com/photo-1600623050629-9c1eda8edc66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZG9nJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      image: "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZG9nJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
     }
   ];
 
