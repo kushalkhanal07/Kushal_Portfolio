@@ -50,7 +50,7 @@ const Skills = () => {
     },
     {
       title: "Design",
-      skills: ["Responsive Design"],
+      skills: ["Responsive Design", "Attention to Detail", "Communication"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 21a9 9 0 0 0 9-9"/>
@@ -61,14 +61,12 @@ const Skills = () => {
       ),
     },
     {
-      title: "Soft Skills",
-      skills: ["Problem-solving", "Attention to Detail", "Communication"],
+      title: "Languages",
+      skills: ["English", "Nepali"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M2 21a8 8 0 0 1 14.93-4.67"/>
-          <path d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-          <path d="M17 21a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/>
-          <path d="m17 17 1 1"/>
+          <path d="M2 5h12a5 5 0 0 1 0 10H2z"/>
+          <path d="M14 9h1a5 5 0 0 1 0 10H2v-4"/>
         </svg>
       ),
     },
@@ -89,28 +87,28 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20">
+    <section id="skills" className="py-20 dark:bg-gray-900 dark:text-white">
       <div className="section-container">
-        <h2 className="section-title text-center text-3xl font-bold mb-12 animate-fade-up">Skills</h2>
+        <h2 className="section-title text-center text-3xl font-bold mb-12 animate-fade-up dark:text-white">Skills</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => (
             <div 
               key={category.title} 
-              className="glass-card p-6 animate-fade-up stagger-item card-hover"
+              className="glass-card p-6 animate-fade-up stagger-item card-hover dark:bg-gray-800/30 dark:border-gray-700"
             >
               <div className="flex items-start mb-4">
-                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-4">
-                  <span className="text-primary">{category.icon}</span>
+                <div className="w-10 h-10 rounded-full bg-primary/10 dark:bg-blue-900/30 flex items-center justify-center mr-4">
+                  <span className="text-primary dark:text-blue-400">{category.icon}</span>
                 </div>
-                <h3 className="text-xl font-semibold">{category.title}</h3>
+                <h3 className="text-xl font-semibold dark:text-white">{category.title}</h3>
               </div>
               
               <div className="flex flex-wrap gap-2 mt-4">
                 {category.skills.map((skill) => (
                   <span 
                     key={skill}
-                    className="px-3 py-1 text-sm rounded-full bg-secondary text-secondary-foreground whitespace-nowrap"
+                    className="px-3 py-1 text-sm rounded-full bg-secondary text-secondary-foreground whitespace-nowrap dark:bg-blue-900 dark:text-blue-100"
                   >
                     {skill}
                   </span>
@@ -121,12 +119,12 @@ const Skills = () => {
         </div>
 
         <div className="mt-16">
-          <div className="relative glass-card p-8 overflow-hidden animate-fade-up" style={{ animationDelay: '0.6s' }}>
-            <h3 className="text-xl font-semibold mb-4">Currently Learning</h3>
-            <p className="text-lg text-gray-700">
-              MongoDB to persevere in becoming a full stack developer.
+          <div className="relative glass-card p-8 overflow-hidden animate-fade-up dark:bg-gray-800/30 dark:border-gray-700" style={{ animationDelay: '0.6s' }}>
+            <h3 className="text-xl font-semibold mb-4 dark:text-white">Currently Learning</h3>
+            <p className="text-lg text-gray-700 dark:text-gray-200">
+              MongoDB to persuade in becoming a full stack developer.
             </p>
-            <div className="absolute right-0 bottom-0 w-32 h-32 rounded-full bg-blue-50 -mr-10 -mb-10 opacity-70"></div>
+            <div className="absolute right-0 bottom-0 w-32 h-32 rounded-full bg-blue-50 dark:bg-blue-900/20 -mr-10 -mb-10 opacity-70"></div>
           </div>
         </div>
       </div>

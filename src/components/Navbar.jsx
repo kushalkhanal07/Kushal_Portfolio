@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -47,14 +48,14 @@ const Navbar = () => {
   return (
     <header className={cn(
       "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-      scrolled ? "bg-white/80 backdrop-blur-md shadow-sm py-3" : "py-5"
+      scrolled ? "bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm py-3" : "py-5"
     )}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-1">
-            <span className="text-xl font-medium tracking-tight animate-fade-in">K</span>
-            <span className="text-lg font-medium tracking-tight animate-fade-in" style={{ animationDelay: '0.1s' }}>.</span>
-            <span className="text-lg font-medium tracking-tight animate-fade-in" style={{ animationDelay: '0.2s' }}>Khanal</span>
+            <span className="text-xl font-medium tracking-tight animate-fade-in dark:text-white">K</span>
+            <span className="text-lg font-medium tracking-tight animate-fade-in dark:text-white" style={{ animationDelay: '0.1s' }}>.</span>
+            <span className="text-lg font-medium tracking-tight animate-fade-in dark:text-white" style={{ animationDelay: '0.2s' }}>Khanal</span>
           </div>
           <div className="hidden md:flex items-center space-x-6">
             {[
@@ -69,19 +70,22 @@ const Navbar = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
+                className={`nav-link ${activeSection === item.id ? 'active' : ''} dark:text-gray-300 dark:hover:text-white`}
               >
                 {item.label}
               </button>
             ))}
           </div>
-          <button className="md:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="4" x2="20" y1="12" y2="12" />
-              <line x1="4" x2="20" y1="6" y2="6" />
-              <line x1="4" x2="20" y1="18" y2="18" />
-            </svg>
-          </button>
+          <div className="flex items-center gap-4">
+            <ThemeToggle />
+            <button className="md:hidden dark:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="4" x2="20" y1="12" y2="12" />
+                <line x1="4" x2="20" y1="6" y2="6" />
+                <line x1="4" x2="20" y1="18" y2="18" />
+              </svg>
+            </button>
+          </div>
         </nav>
       </div>
     </header>
