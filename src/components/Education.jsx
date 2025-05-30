@@ -57,17 +57,6 @@ const Education = () => {
             </div>
           </div>
           
-          <div className="mt-12 text-center animate-fade-up" style={{ animationDelay: '0.4s' }}>
-            <div className="inline-block px-5 py-3 rounded-full bg-primary/5 dark:bg-blue-900/20 text-primary dark:text-blue-400">
-              <span className="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
-                  <path d="m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12"/>
-                  <circle cx="17" cy="7" r="5"/>
-                </svg>
-                Continuously learning and improving skills through self-study and online courses
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
